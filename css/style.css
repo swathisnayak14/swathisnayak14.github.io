@@ -438,11 +438,26 @@ h3 span:nth-child(21)
     animation-delay: 6.8s;
 }
 
-section .extra{
+.extra{
     position: absolute;
     width: 100rem;
     height: 100rem;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.extra ul{
+    position: relative;
+    display: flex;
+    z-index:2;
+}
+
+.extra ul li{
+    position: relative;
+    list-style: none;
+    margin: 1rem;
+}
+
+.extra ul li a{
+    
 }
