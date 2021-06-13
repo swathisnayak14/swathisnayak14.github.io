@@ -71,6 +71,7 @@
       height: 100vh;
       background:#3e0748;
       transition: 0.6s;
+      z-index: 5;
   }
 
   .navigation:hover{
@@ -118,7 +119,6 @@
       text-align: center;
       color: white;
       line-height: 12rem;
-      text-align: center;
       transition: all 0.5s ease;
       cursor: pointer;
   }
@@ -150,10 +150,10 @@
 }
 
 section{
-    height: 100rem;
+    height: 80rem;
 }
 
-h1{
+section h1{
     position: absolute;
     color:#7FFF00;
     font-family: 'Benne', serif;
@@ -161,7 +161,7 @@ h1{
     margin: 0;
     padding: 0;
     top: 38rem;
-    margin-left: 22rem;
+    margin-left: 21rem;
     letter-spacing: 0.03rem;
     font-size: 8rem;
     text-shadow: .5rem .5rem rgb(249, 13,84);
@@ -302,7 +302,7 @@ h1 span:nth-child(19)
     margin: 0;
     padding: 0;
     top: 25rem;
-    margin-left: -10rem;
+    margin-left: -14rem;
     letter-spacing: 0.11rem;
     font-size: 8rem;
     text-shadow: .5rem .5rem rgb(249, 13,84);
@@ -319,7 +319,7 @@ h1 span:nth-child(19)
     margin: 0;
     padding: 0;
     top: 48rem;
-    margin-left: 35rem;
+    margin-left: 14rem;
     letter-spacing: .5rem;
     font-size: 3rem;
     text-shadow: .3rem .3rem #7FFF00 ;
@@ -442,19 +442,17 @@ h3 span:nth-child(21)
 
 
 .connect{
-    display: flex;
-    height: 100vh;
+    display: grid;
+    place-items: center;
+    height: 10rem;
     width: 100vw;
-    align-items: center;
-    text-align: center;
-    background-color: black;
-
 }
 
 .connect ul{
     display: flex;
     list-style: none;
-    margin-left: 20rem;
+    align-items: center;
+    text-align: center;
 }
 
 .connect ul li{
