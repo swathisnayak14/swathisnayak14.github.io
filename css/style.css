@@ -440,48 +440,56 @@ h3 span:nth-child(21)
     animation-delay: 6.8s;
 }
 
-.extra{
-    position: absolute;
-    width: 100rem;
-    height: 100vh;
-    display: flex;
+.connect{
+    margin: 0;
+    padding: 0;
     align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-.extra ul{
-    position: relative;
+    place-items: center;
     display: flex;
-    z-index: 2;
 }
 
-.extra ul li{
-    position: relative;
-    list-style: none;
-    margin: 1rem;
-}
-
-.extra ul li a{
+.connect ul{
     position: absolute;
-    width: 8rem;
-    height: 8rem;
-    display:inline-block;
-    border-radius: 1rem;
-    display: flex;
-    border: .1rem solid rgba(255, 255,255, 0.4);
-    justify-content: center;
-    align-items: center;
-    text-decoration: none;
-    color: white;
-    font-size: 5rem;
-    display: flex;
-    list-style: none;
-}
-
-#whatsapp{
-    color: white;
-    font-size: 5rem;
-    position: absolute;
+    top: 80rem;
+    left: 50rem;
+    transform: translate(-50%,-50%);
 }
  
+.connect ul li{
+    list-style: none;
+    margin: 1rem;
+    float: left;
+}
+
+.connect ul li a{
+    position: relative;
+    width: 6rem;
+    height: 6rem;
+    display: block;
+    text-align: center;
+    line-height: 6rem;
+    box-shadow: 0 0 0 0.2rem #e91e63;
+    border-radius: 50rem;
+    color: #e91e63;
+    transition: .5s;
+    font-size: 2rem;
+    margin-top: 2rem;
+}
+
+.connect ul li a:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100rem;
+    height: 100rem;
+    transition: .5s;
+    background: #e91e63;
+    z-index: -1;
+    transform: rotate(-45deg) scaleX(0);
+}
+
+
+.connect ul li a:hover:before{
+    transform: rotate(-45deg) scaleX(1);
+}
