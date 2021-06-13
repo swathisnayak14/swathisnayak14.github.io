@@ -440,56 +440,51 @@ h3 span:nth-child(21)
     animation-delay: 6.8s;
 }
 
+
 .connect{
-    margin: 0;
-    padding: 0;
-    align-items: center;
-    place-items: center;
     display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+
 }
 
 .connect ul{
-    position: absolute;
-    top: 80rem;
-    left: 50rem;
-    transform: translate(-50%,-50%);
-}
- 
-.connect ul li{
+    display: flex;
     list-style: none;
-    margin: 1rem;
-    float: left;
+    margin-left: 20rem;
 }
 
-.connect ul li a{
+.connect ul li{
     position: relative;
-    width: 6rem;
-    height: 6rem;
     display: block;
-    text-align: center;
-    line-height: 6rem;
-    box-shadow: 0 0 0 0.2rem #e91e63;
-    border-radius: 50rem;
-    color: #e91e63;
-    transition: .5s;
-    font-size: 2rem;
-    margin-top: 2rem;
+   color: #666;
+   font-size: 3rem;
+   height: 6rem;
+   width: 6rem;
+   background:#171515;
+   line-height: 7rem;
+   border-radius: 50rem;
+   margin: 0 1.5rem;
+   cursor: pointer;
 }
 
-.connect ul li a:before{
-    content: "";
+.connect ul li:before{
     position: absolute;
+    content: '';
     top: 0;
-    left: 0;
-    width: 100rem;
+    left:0;
+    background: #d35400;
     height: 100rem;
-    transition: .5s;
-    background: #e91e63;
+    width: 100rem;
+    border-radius: 50rem;
     z-index: -1;
-    transform: rotate(-45deg) scaleX(0);
+    transform: scale(0.9);
 }
 
-
-.connect ul li a:hover:before{
-    transform: rotate(-45deg) scaleX(1);
+.connect ul li:hover:before{
+    transform: scale(1.2);
 }
+
