@@ -103,11 +103,11 @@
   }
 
   .navigation ul li:hover{
-    box-shadow: 0 0 1rem .3rem yellow;
+    box-shadow: 0 0 1rem .3rem rgb(249, 13,84);
     border-bottom: .1rem solid transparent;
     border-top: .1rem solid transparent;
     transition: all 0.5s ease ;
-    background: #FF00FF;
+    background: rgb(249, 13,84);
   }
 
 
@@ -118,7 +118,7 @@
       height: 7rem;
       text-align: center;
       color: white;
-      line-height: 12rem;
+      line-height: 9rem;
       transition: all 0.5s ease;
       cursor: pointer;
   }
@@ -138,10 +138,14 @@
     height: 7rem;
     text-align: start;
     color: white;
-    line-height: 11rem;
+    line-height: 7rem;
     white-space: nowrap;
     font-size: 2.8rem;
     text-align: center;
+    font-family: 'Abril Fatface', cursive;
+    font-variant: small-caps;
+    letter-spacing: .3rem;
+
 }
 
 .cur li a i {
@@ -328,6 +332,53 @@ h1 span:nth-child(19)
     
 }
 
+.button{
+    margin-left: 28rem;
+}
+
+.button .btn{
+    width: 20rem;
+    height: 5rem;
+    letter-spacing: .5rem;
+    font-weight: 800;
+    margin-top: 60rem;
+    cursor:pointer;
+    border-radius: 1rem;
+    display: inline-block;
+    color:#7FFF00;
+    font-size: 2rem;
+    transition: ease-out 0.3s;
+    border: .3rem solid rgb(249, 13,84);
+    outline: none;
+    position: absolute;
+    z-index: 1;
+    background:rgba(255,255,255,.15);
+}
+
+.button .btn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.button .btn:before{
+    transition: 0.5s all ease;
+    position: absolute;
+    top:0;
+    left:50rem;
+    right: 50rem;
+    bottom: 0;
+    opacity: 0;
+    content: "";
+    background-color: rgb(249, 13,84);
+}
+
+.button .btn:hover:before{
+    transition: 0.5 all ease;
+    left:0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+}
 
 h3 span{
     opacity: 0;
@@ -458,7 +509,6 @@ h3 span:nth-child(21)
 .connect ul li{
     position: relative;
     display: block;
-   color: #666;
    font-size: 3rem;
    height: 6rem;
    width: 6rem;
@@ -469,20 +519,21 @@ h3 span:nth-child(21)
    cursor: pointer;
 }
 
-.connect ul li:before{
-    position: absolute;
-    content: '';
-    top: 0;
-    left:0;
-    background: #d35400;
-    height: 100rem;
-    width: 100rem;
-    border-radius: 50rem;
-    z-index: -1;
-    transform: scale(0.9);
+#insta:hover{
+    color: rgb(249, 13,84);
 }
-
-.connect ul li:hover:before{
-    transform: scale(1.2);
+ #whatsapp:hover{
+     color: #32CD32;
+ }
+ #git:hover{
+     color:gray;
+ }
+ #fb:hover{
+     color: blue;
+ }
+/*#ld:hover{
+    color: #4169E1;
 }
-
+#twitter:hover{
+    color: cornflowerblue;
+}*/
