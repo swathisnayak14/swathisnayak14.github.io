@@ -9,7 +9,7 @@
     -ms-user-select: none;
     user-select: none;
     overflow: hidden;
-    font-family: 'Mate SC', serif;
+    font-family: 'Righteous', cursive;
     box-sizing: border-box;
   }
   
@@ -33,29 +33,44 @@
     html {
       font-size: 32%;
     }
+    .logoclass{
+        display:none;
+    }
   }
   
   @media(max-width: 768px) {
     html {
       font-size: 35%;
     }
+    .logoclass {
+        display:none;
+    }
   }
   
   @media(max-width: 450px) {
     html {
-      font-size: 28.0%;
+      font-size: 25.0%;
+    }
+    .logoclass {
+        display:none;
     }
   }
   
   @media(max-width: 390px) {
     html {
-      font-size: 25.5%;
+      font-size: 21.5%;
+    }
+    .logoclass {
+        display:none;
     }
   }
   
   @media(max-width: 320px) {
     html {
-      font-size: 22.5%;
+      font-size: 21.5%;
+    }
+    .logoclass {
+        display:none;
     }
   }
 
@@ -142,7 +157,6 @@
     white-space: nowrap;
     font-size: 2.8rem;
     text-align: center;
-    font-family: 'Abril Fatface', cursive;
     font-variant: small-caps;
     letter-spacing: .3rem;
 
@@ -165,10 +179,10 @@ section h1{
     margin: 0;
     padding: 0;
     top: 38rem;
-    margin-left: 21rem;
+    margin-left: -2.5rem;
     letter-spacing: 0.03rem;
     font-size: 8rem;
-    text-shadow: .5rem .5rem rgb(249, 13,84);
+    text-shadow: .6rem .6rem rgb(249, 13,84);
     width: 125rem;
     transform: translateY(-50%);
 }
@@ -306,7 +320,7 @@ h1 span:nth-child(19)
     margin: 0;
     padding: 0;
     top: 25rem;
-    margin-left: -14rem;
+    margin-left: -14.5rem;
     letter-spacing: 0.11rem;
     font-size: 8rem;
     text-shadow: .5rem .5rem rgb(249, 13,84);
@@ -333,7 +347,7 @@ h1 span:nth-child(19)
 }
 
 .button{
-    margin-left: 28rem;
+    margin-left: 29rem;
 }
 
 .button .btn{
@@ -537,3 +551,11 @@ h3 span:nth-child(21)
 #twitter:hover{
     color: cornflowerblue;
 }*/
+
+.logoclass{
+    position:absolute;
+    width:100rem;
+    height:100rem;
+    margin-left:110rem;
+    margin-top:-5rem;
+}
