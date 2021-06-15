@@ -21,11 +21,20 @@
     html {
       font-size: 65%;
     }
+    video{
+        display: none;
+
+    }
   }
   
   @media(max-width: 1600px) {
     html {
       font-size: 65%;
+    }
+    video{
+        object-fit: cover;
+        margin-top: -13rem;
+        margin-left: 10rem;
     }
   }
   
@@ -36,6 +45,10 @@
     .logoclass{
         display:none;
     }
+    video{
+        display: none;
+
+    }
   }
   
   @media(max-width: 768px) {
@@ -44,6 +57,10 @@
     }
     .logoclass {
         display:none;
+    }
+    video{
+        display: none;
+
     }
   }
   
@@ -54,6 +71,10 @@
     .logoclass {
         display:none;
     }
+    video{
+        display: none;
+
+    }
   }
   
   @media(max-width: 390px) {
@@ -63,6 +84,10 @@
     .logoclass {
         display:none;
     }
+    video{
+        display: none;
+
+    }
   }
   
   @media(max-width: 320px) {
@@ -71,6 +96,10 @@
     }
     .logoclass {
         display:none;
+    }
+    video{
+        display: none;
+
     }
   }
 
@@ -203,11 +232,6 @@ h1 span{
     }
 }
 
-video{
-    object-fit: cover;
-    margin-bottom: -35rem;
-    margin-left: 15rem;
-}
 
 h1 span:nth-child(1)
 {
@@ -509,7 +533,7 @@ h3 span:nth-child(21)
     height: 9rem;
     width: 100vw;
     margin-top:-25rem; 
-    margin-left: -31rem; 
+    
 }
 
 .connect ul{
