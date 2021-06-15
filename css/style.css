@@ -82,7 +82,7 @@
 
   .navigation{
       position: fixed;
-      width: 6rem;
+      width: 5.5rem;
       height: 100vh;
       background:#3e0748;
       transition: 0.6s;
@@ -90,21 +90,21 @@
   }
 
   .navigation:hover{
-      width: 25rem;
+      width: 21rem;
   }
 
   .navigation ul{
       position: absolute;
-      top: 0;
+      top: 2rem;
       left: 0;
-      width: 100rem;
+      width: 90rem;
   }
 
   .navigation ul li{
       position: relative;
       width: 100rem;
       list-style: none;
-      margin-top: 3rem;
+      margin-top: 5rem;
   }
 
   .navigation ul li a{
@@ -119,8 +119,8 @@
 
   .navigation ul li:hover{
     box-shadow: 0 0 1rem .3rem rgb(249, 13,84);
-    border-bottom: .1rem solid transparent;
-    border-top: .1rem solid transparent;
+    border-bottom: .4rem solid transparent;
+    border-top: .4rem solid transparent;
     transition: all 0.5s ease ;
     background: rgb(249, 13,84);
   }
@@ -130,32 +130,29 @@
       position: relative;
       display: block;
       min-width: 6rem;
-      height: 7rem;
+      height: 3rem;
       text-align: center;
       color: white;
-      line-height: 9rem;
+      line-height: 4.5rem;
       transition: all 0.5s ease;
       cursor: pointer;
+      align-items: center;
   }
 
   .navigation ul li a .icon .fa{
-      font-size: 2.4rem;
-  }
-
-  .navigation ul li a .icon .fas{
-      font-size: 2.4rem;
+      font-size: 2.0rem;
   }
 
   .navigation ul li a .title{
     position: relative;
     display: block;
     padding: 0 0.1rem;
-    height: 7rem;
-    text-align: start;
+    height: 3rem;
+    text-align: center;
     color: white;
-    line-height: 7rem;
+    line-height: 3rem;
     white-space: nowrap;
-    font-size: 2.8rem;
+    font-size: 2.0rem;
     text-align: center;
     font-variant: small-caps;
     letter-spacing: .3rem;
@@ -178,10 +175,10 @@ section h1{
     text-align: center;
     margin: 0;
     padding: 0;
-    top: 38rem;
-    margin-left: -2.5rem;
+    top: 25rem;
+    margin-left: -8.3rem;
     letter-spacing: 0.03rem;
-    font-size: 8rem;
+    font-size: 7rem;
     text-shadow: .6rem .6rem rgb(249, 13,84);
     width: 125rem;
     transform: translateY(-50%);
@@ -319,10 +316,10 @@ h1 span:nth-child(19)
     text-align: center;
     margin: 0;
     padding: 0;
-    top: 25rem;
-    margin-left: -14.5rem;
+    top: 15rem;
+    margin-left: -19rem;
     letter-spacing: 0.11rem;
-    font-size: 8rem;
+    font-size: 6rem;
     text-shadow: .5rem .5rem rgb(249, 13,84);
     width: 100rem;
     transform: translateY(-50%);
@@ -336,26 +333,26 @@ h1 span:nth-child(19)
     text-align: center;
     margin: 0;
     padding: 0;
-    top: 48rem;
-    margin-left: 14rem;
+    top: 33rem;
+    margin-left: 3.8rem;
     letter-spacing: .5rem;
-    font-size: 3rem;
-    text-shadow: .3rem .3rem #7FFF00 ;
+    font-size: 2rem;
+    text-shadow: .2rem .2rem #7FFF00 ;
     width: 100rem;
     transform: translateY(-50%);
     
 }
 
 .button{
-    margin-left: 29rem;
+    margin-left: 27rem;
 }
 
 .button .btn{
     width: 20rem;
-    height: 5rem;
+    height: 4rem;
     letter-spacing: .5rem;
     font-weight: 800;
-    margin-top: 60rem;
+    margin-top: 43rem;
     cursor:pointer;
     border-radius: 1rem;
     display: inline-block;
@@ -509,8 +506,10 @@ h3 span:nth-child(21)
 .connect{
     display: grid;
     place-items: center;
-    height: 10rem;
+    height: 9rem;
     width: 100vw;
+    margin-top:-25rem; 
+    margin-left: -31rem; 
 }
 
 .connect ul{
@@ -523,11 +522,11 @@ h3 span:nth-child(21)
 .connect ul li{
     position: relative;
     display: block;
-   font-size: 3rem;
-   height: 6rem;
-   width: 6rem;
-   background:#171515;
-   line-height: 7rem;
+   font-size: 2rem;
+   height: 4rem;
+   width: 4rem;
+   background:#302d2d;
+   line-height: 4.7rem;
    border-radius: 50rem;
    margin: 0 1.5rem;
    cursor: pointer;
@@ -554,8 +553,10 @@ h3 span:nth-child(21)
 
 .logoclass{
     position:absolute;
-    width:100rem;
-    height:100rem;
-    margin-left:110rem;
-    margin-top:-5rem;
+    width:65rem;
+    height:60rem;
+    margin-left:70rem;
+    margin-top:-8rem;
+    object-fit: contain;
 }
+
