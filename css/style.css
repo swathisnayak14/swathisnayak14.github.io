@@ -22,8 +22,9 @@
       font-size: 65%;
     }
     video{
-        display: none;
-
+        object-fit: cover;
+        margin-top: -13rem;
+        margin-left: 10rem;
     }
   }
   
