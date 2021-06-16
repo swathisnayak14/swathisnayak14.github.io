@@ -303,58 +303,92 @@ h1 span:nth-child(9)
 
 .box{
     position: relative;
-    width: 50rem;
+    width: 65rem;
     height: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20rem;
-    background: #060c21;
+    background: #091647;
+    flex-wrap: wrap;
+    box-shadow: 1rem 1rem 1rem 0rem palevioletred;
 
 }
 
 .box:before{
     content: '';
     position: absolute;
-    top: -0.3rem;
-    left: -0.3rem;
-    right: -0.3rem;
-    bottom: -0.3rem;
-    background: #fff;
-    z-index: -1;
-
+    top: 0;
+    left: 0;
+    width: 100rem;
+    height: 100rem;
+    background: #00adff;
+    z-index: 1;
+    mix-blend-mode: color;
+    animation: ani 10s linear infinite;
 }
 
-.box:after{
-    content: '';
-    position: absolute;
-    top: -0.3rem;
-    left: -0.3rem;
-    right: -0.3rem;
-    bottom: -0.3rem;
-    background: #fff;
-    z-index: -1;
-    filter: blur(10rem);
+@keyframes ani{
+    0%{
+        filter:hue-rotate(0deg);
+    }
+    100%{
+        filter:hue-rotate(360deg);
+    }
+
 }
 
 .box .glass{
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 50%;
     height: 100%;
     display: block;
     background: rgba(255, 255, 255, 0.1);
     pointer-events: none;
+  
 }
 
 .box .content{
     color: white;
     padding: 2rem;
+    
 }
 
 p{
-    font-size: 1rem;
+    font-size: 1.8rem;
+    position: relative;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: initial;
+    width: 62rem;
+    text-align: center;
+    justify-content: center;
+    letter-spacing: .2rem;
+    filter: blur(.02rem);
+    text-shadow: 0 0 .1rem rgba(255, 255, 255, 5),
+                 0 0 .2rem rgba(255, 255, 255, 5), 
+                 0 0 .4rem rgba(255, 255, 255, 5),
+                 0 0 .8rem rgba(255, 255, 255, 5), 
+                 0 0 1.6rem rgba(255, 255, 255, 5);
+                
 }
+
+.myimg{
+    width: 100rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.myimg .image{
+    width: 30rem;
+    height: 30rem;
+    place-items: center;
+    margin-top: 20.5rem;
+    margin-left: 7rem;
+    box-shadow: 0.5rem 0.5rem 0.5rem 0 gray,1rem 1rem 1rem rgb(211, 241, 194);
+}
+
 
 
