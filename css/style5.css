@@ -225,7 +225,6 @@
     width: 70rem;
     display: flex;
     flex-wrap: wrap;
-    background-color: green;
 }
 
 .doubts h1{
@@ -314,22 +313,163 @@ h1 span:nth-child(10)
 
 .box{
     position: absolute;
-    top: 23rem;
-    left: 9rem;
+    top: 18rem;
+    left: 12rem;
     width: 95rem;
     padding: 2rem;
     display: flex;
-    background-color: grey;
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    height: 33rem;
+    height: 39rem;
 }
 
 .box .card{
     position: relative;
     width: 25rem;
-    height: 25rem;
-    background: white;
+    height: 30rem;
+    background:rgb(248, 213, 252);
+    border-radius: 2rem;
+    overflow: hidden;
+    box-shadow: 1.5rem 1.5rem 2rem rgb(249, 13,84) ;
+    transition: .5s;
 }
 
+.box:hover .card{
+    filter: blur(2rem);
+    transform: scale(0.9);
+    opacity: 0.5;
+}
+
+.box .card:hover{
+    filter: blur(0rem);
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+
+.box .card .circle{
+    position: relative;
+    height: 100rem;
+    width: auto;
+    background-color: black;
+    clip-path: circle(13.5rem at center 0);
+    text-align: center;       
+   
+}
+
+.box .card .circle h2{
+    color:#fff;
+    font-size: 4.5rem;
+    padding: 3rem 0;
+}
+
+.box .card .info{
+    position: absolute;
+    bottom: 3rem;
+    text-align: center;
+    page-break-after: 2rem;
+    display: grid;
+    place-items: center;
+}
+
+.box .card .info p{
+    position: fixed;
+    color: black;
+    align-items: center;
+    place-content: center;  
+    font-size: 3rem;
+    margin: -9rem 2.7rem;
+}
+
+.box .card:nth-child(1) .circle{
+  background:rgb(253, 81, 176);
+}
+.box .card:nth-child(2) .circle{
+    background:orange;
+  }
+
+.button{
+    position: relative;
+    height: 3rem;
+    width: auto;
+
+}
+
+.button .btn{
+    width: 20rem;
+    height: 3rem;
+    border-radius: 1rem;
+    letter-spacing: .1rem;
+    margin: 0 2rem;
+    display: inline-block;
+    cursor: pointer;
+    color:black;
+    font-size: 1.3rem;
+    transition: ease-out 0.3s;
+    border: .3rem solid rgb(249, 13,84);
+    outline: none;
+    z-index: 1;
+    background-color: rgb(249, 13,84);
+}
+
+.button .btn:hover{
+    color: white;
+    cursor: pointer;
+}
+
+/* .button .btn:before{
+    transition: .5s all ease;
+    position: absolute;
+    top: 0;
+    left: 50rem;
+    right: 50rem;
+    bottom: 0;
+    opacity: 0;
+    content: '';
+    background-color: rgb(249, 13,84);
+}
+
+.button .btn:hover:before{
+    transition: 0.5 all ease;
+    left:0;
+    right: 0;
+    opacity: 1;
+    z-index: -1;
+} */
+
+/* .info a{
+    font-size: 1.7rem;
+    padding: 1rem 1rem;
+    text-decoration: none;
+    border: .2rem solid rgb(249, 13,84);
+    z-index: 1;
+    color: teal;
+    border-radius: 1rem;
+    width: 23rem;
+    height: 4rem;
+}
+
+.info a::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #7FFF00;
+    height: 100rem;
+    width: 100rem;
+    transform: translateX(-100rem);
+    transition: all 0.3s linear;
+    border-radius: 1rem;
+    
+}
+
+.info a:hover:before{
+    transform:translateX(0);
+    z-index:-1;
+    border-radius: 1rem;
+}
+
+.info a:hover{
+    color: tomato;
+} */
