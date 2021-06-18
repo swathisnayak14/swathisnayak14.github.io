@@ -358,8 +358,8 @@ h1 span:nth-child(10)
    
 }
 
-.box .card .circle h2{
-    color:#fff;
+.box .card .circle i{
+    color:black;
     font-size: 4.5rem;
     padding: 3rem 0;
 }
