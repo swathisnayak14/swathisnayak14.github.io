@@ -204,3 +204,96 @@
 #twitter:hover{
     color: cornflowerblue;
 }*/
+
+.skills{
+    position: absolute;
+    left:26rem;
+    height: 20rem;
+    width: 70rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills h1{
+    position: absolute;
+    color:#7FFF00;
+    font-family: 'Benne', serif;
+    margin: 0;
+    padding: 0;
+    top: 15rem;
+    left: 0;
+    letter-spacing: 0.03rem;
+    font-size: 7rem;
+    text-shadow: .6rem .6rem rgb(249, 13,84);
+    width: 125rem;
+    transform: translateY(-50%);
+}
+
+.skills h1 span{
+    opacity: 0;
+    display: inline-block;
+    animation: animate 1s linear forwards;
+}
+
+@keyframes animate{
+    0%{
+        opacity: 0;
+        transform: rotateY(90deg);
+        filter: blur(1rem);
+    }
+    100%{
+        opacity: 1;
+        transform: rotateY(0deg);
+        filter: blur(0rem);
+    }
+}
+
+h1 span:nth-child(1)
+{
+    animation-delay: 0.2s;
+}
+
+h1 span:nth-child(2)
+{
+    animation-delay: 0.4s;
+}
+
+h1 span:nth-child(3)
+{
+    animation-delay: 0.6s;
+}
+
+h1 span:nth-child(4)
+{
+    animation-delay: 0.8s;
+}
+
+h1 span:nth-child(5)
+{
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(6)
+{
+    animation-delay: 1.2s;
+}
+
+h1 span:nth-child(7)
+{
+    animation-delay: 1.4s;
+}
+
+h1 span:nth-child(8)
+{
+    animation-delay: 1.6s;
+}
+
+h1 span:nth-child(9)
+{
+    animation-delay: 1.8s;
+}
+
+h1 span:nth-child(10)
+{
+    animation-delay: 2s;
+}
