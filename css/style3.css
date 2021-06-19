@@ -1,0 +1,206 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    overflow: hidden;
+    font-family: 'Righteous', cursive;
+    box-sizing: border-box;
+  }
+  
+  html{
+      font-size: 62.5%;
+  }
+
+  @media(max-width: 2560px) {
+    html {
+      font-size: 65%;
+    }
+  }
+  
+  @media(max-width: 1600px) {
+    html {
+      font-size: 65%;
+    }
+  }
+  
+  @media(max-width: 1200px) {
+    html {
+      font-size: 32%;
+    }
+  }
+  
+  @media(max-width: 768px) {
+    html {
+      font-size: 35%;
+    }
+  }
+  
+  @media(max-width: 450px) {
+    html {
+      font-size: 25.0%;
+    }
+  }
+  
+  @media(max-width: 390px) {
+    html {
+      font-size: 21.5%;
+    }
+  }
+  
+  @media(max-width: 320px) {
+    html {
+      font-size: 21.5%;
+    }
+  }
+
+  .container{
+    position: absolute;
+    height:100vh;
+    width: 100vw;
+    background-color:black;
+    display: flex;
+}
+
+ .navigation{
+      position: fixed;
+      width: 5.5rem;
+      height: 100vh;
+      background:#3e0748;
+      transition: 0.6s;
+      z-index: 5;
+  }
+
+  .navigation:hover{
+      width: 21rem;
+  }
+
+  .navigation ul{
+      position: absolute;
+      top: 2rem;
+      left: 0;
+      width: 90rem;
+  }
+
+  .navigation ul li{
+      position: relative;
+      width: 100rem;
+      list-style: none;
+      margin-top: 5rem;
+  }
+
+  .navigation ul li a{
+      position: relative;
+      display: block;
+      width: 100rem;
+      display: flex;
+      text-decoration: none;
+      color: white;
+      text-align: center;
+  }
+
+  .navigation ul li:hover{
+    box-shadow: 0 0 1rem .3rem rgb(249, 13,84);
+    border-bottom: .4rem solid transparent;
+    border-top: .4rem solid transparent;
+    transition: all 0.5s ease ;
+    background: rgb(249, 13,84);
+  }
+
+
+  .navigation ul li a .icon{
+      position: relative;
+      display: block;
+      min-width: 6rem;
+      height: 3rem;
+      text-align: center;
+      color: white;
+      line-height: 4.5rem;
+      transition: all 0.5s ease;
+      cursor: pointer;
+      align-items: center;
+  }
+
+  .navigation ul li a .icon .fa{
+      font-size: 2.0rem;
+  }
+
+  .navigation ul li a .title{
+    position: relative;
+    display: block;
+    padding: 0 0.1rem;
+    height: 3rem;
+    text-align: center;
+    color: white;
+    line-height: 3rem;
+    white-space: nowrap;
+    font-size: 2.0rem;
+    text-align: center;
+    font-variant: small-caps;
+    letter-spacing: .3rem;
+
+}
+
+.cur li a i {
+    font-size: 18px;
+    color: yellow;
+}
+
+
+.connect{
+    position:fixed;
+    display: grid;
+    place-items: center;
+    height: 9rem; 
+    width: 100vw;
+    margin-top: 55rem;
+    z-index: 2;
+}
+
+.connect ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+}
+
+.connect ul li{
+   display: block;
+   font-size: 2rem;
+   height: 4rem;
+   width: 4rem; 
+   background:#302d2d;
+   line-height: 4.7rem;
+   border-radius: 50rem;
+   margin: 0 1.5rem;
+   cursor: pointer;
+}
+
+
+#insta,#whatsapp,#git,#fb {
+    color: rgba(85,26,139,25);
+}
+
+#insta:hover{
+    color: rgb(249, 13,84);
+}
+ #whatsapp:hover{
+     color: #32CD32;
+ }
+ #git:hover{
+     color:gray;
+ }
+ #fb:hover{
+     color: blue;
+ }
+/*#ld:hover{
+    color: #4169E1;
+}
+#twitter:hover{
+    color: cornflowerblue;
+}*/
