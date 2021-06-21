@@ -557,6 +557,10 @@ h3 span:nth-child(21)
    cursor: pointer;
 }
 
+#insta,#whatsapp,#git,#fb {
+    color: rgba(85,26,139,25);
+}
+
 #insta:hover{
     color: rgb(249, 13,84);
 }

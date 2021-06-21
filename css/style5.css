@@ -45,6 +45,7 @@
     .logoclass {
         display:none;
     }
+    #maps {display:none;}
   }
   
   @media(max-width: 450px) {
@@ -52,6 +53,9 @@
       font-size: 25.0%;
     }
     .logoclass {
+        display:none;
+    }
+    #maps {
         display:none;
     }
   }
@@ -63,6 +67,7 @@
     .logoclass {
         display:none;
     }
+    #maps {display:none;}
   }
   
   @media(max-width: 320px) {
@@ -72,6 +77,7 @@
     .logoclass {
         display:none;
     }
+    #maps {display:none;}
   }
 
   .container{
@@ -314,8 +320,8 @@ h1 span:nth-child(10)
 .box{
     position: absolute;
     top: 18rem;
-    left: 12rem;
-    width: 95rem;
+    left: 11rem;
+    width: 90rem;
     padding: 2rem;
     display: flex;
     justify-content: space-evenly;
@@ -444,7 +450,7 @@ h1 span:nth-child(10)
     text-decoration: none;
     border: .2rem solid rgb(249, 13,84);
     z-index: 1;
-    color: teal;
+*    color: teal;
     border-radius: 1rem;
     width: 23rem;
     height: 4rem;
@@ -473,3 +479,4 @@ h1 span:nth-child(10)
 .info a:hover{
     color: tomato;
 } */
+

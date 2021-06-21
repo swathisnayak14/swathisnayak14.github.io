@@ -39,24 +39,31 @@
     html {
       font-size: 35%;
     }
+    .inner-chart-container,.background-chart-container{display:none}
+
   }
   
   @media(max-width: 450px) {
     html {
       font-size: 25.0%;
     }
+    .inner-chart-container,.background-chart-container{display:none}
+
   }
   
   @media(max-width: 390px) {
     html {
       font-size: 21.5%;
     }
+    .inner-chart-container,.background-chart-container{display:none}
+
   }
   
   @media(max-width: 320px) {
     html {
       font-size: 21.5%;
     }
+    .inner-chart-container,.background-chart-container{display:none}
   }
 
   .container{
@@ -359,8 +366,8 @@ p{
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: initial;
     width: 40rem;
-    text-align: center;
-    justify-content: center;
+    /* text-align: center;
+    justify-content: center; */
     letter-spacing: .2rem;
     filter: blur(.02rem);
     text-shadow: 0 0 .1rem rgba(255, 255, 255, 5),
@@ -404,25 +411,25 @@ p{
 
 .inner-chart-container{
     position: absolute;
-    width: 57rem;
+    width: 50rem;
+    height: auto;      
     margin: 0 auto;
     top:20rem;
-    left: 85rem;
+    left: 88rem;
 }
 
 .inner-chart-container h2{
-    text-align: left;
+    text-align: left;     
     margin: 2rem 0;
     letter-spacing: .1rem;
     padding: 0 0 0 1rem;
     color: greenyellow;
 }
 
-.line{
-    height: 2.5rem;
-    min-width: 80rem;
-    margin: 0 auto 1rem;
-    line-height: 2.5rem;
+.line{              
+    height: 0.5rem;
+    min-width: 100%;
+    margin: 0 auto 1rem;    
     font-size: 1.4rem;
     color:greenyellow;
     padding: 0 0 0 1rem;
@@ -431,23 +438,23 @@ p{
 
 .line:before{
     content: '';
-    width: 100rem;
+    width: 100%;
     position: absolute;
     left: 0;
     height: 1rem;
     top: 0;
     z-index: 1;
-    background: khaki;
+    background: #302d2d; 
 }
 
 .line:after{
     content: '';
-    background: peru;
+    background: rgb(249, 13,84);
     height: 1rem;
     transition: 0.8s;
     display: block;
     width: 100rem;
-    animation: an 1 5s;
+    animation: anime 1 5s;
     position: absolute;
     top: 0;
     left: 0;
@@ -455,26 +462,40 @@ p{
 }
 
 .line1:after{
-    min-width: 10rem;
+    max-width: 55%;  
 }
 
 .line2:after{
-    min-width: 60rem;
+    max-width: 60%;
 }
 
 .line3:after{
-    min-width: 75rem;
+    max-width: 70%;
 }
 
 .line4:after{
-    min-width: 50rem;
+    max-width: 48%;    
 }
 
-@keyframes an{
+.line5:after{
+    max-width: 40%;    
+}
+
+@keyframes anime{
     0%{
-        width: 0rem;
+        width: 0%;
     }
     100%{
-        width: 100rem;
+        width: 100%;
     }
 }
+
+.background-chart-container {
+    position:relative;
+    width: 55rem;  
+    height:36rem;
+    margin-top: 19rem;
+    margin-left:4.6rem; 
+    background-color: rgba(255,255,255,.1); 
+    box-shadow: 0 0 1rem .3rem #7FFF00; 
+}   
