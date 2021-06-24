@@ -316,7 +316,7 @@ h1 span:nth-child(9)
     position: absolute;
     top: 23rem;
     left:23.5rem;
-    height: 40rem;
+    height: 30rem;
     width: 70rem;
     display: flex;
     flex-wrap: wrap;
@@ -422,11 +422,13 @@ h1 span:nth-child(9)
     font-size: 1.5rem;
     letter-spacing: .1rem;
     border-radius: 1rem;
+    opacity: 0.5;
 }
 
 .box .card .content a:hover{
     color: black;
-    text-decoration: underline;;
+    text-decoration: underline;
+    opacity: 1;
 }
 
 .box .card span:nth-child(1){
