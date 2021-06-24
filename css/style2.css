@@ -427,7 +427,6 @@ h1 span:nth-child(9)
 
 .box .card .content a:hover{
     color: black;
-    text-decoration: underline;
     opacity: 1;
 }
 
