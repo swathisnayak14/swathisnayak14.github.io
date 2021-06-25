@@ -383,7 +383,7 @@ h1 span:nth-child(19)
     display: inline-block;
     color:#7FFF00;
     font-size: 2rem;
-    transition: ease-out 0.3s;
+    /* transition: ease-out 0.3s; */
     border: .3rem solid rgb(249, 13,84);
     outline: none;
     position: absolute;
