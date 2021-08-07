@@ -9,7 +9,7 @@
     -ms-user-select: none;
     user-select: none;
     overflow: hidden;
-    font-family: 'Righteous', cursive;
+    font-family: 'Vollkorn', serif;
     box-sizing: border-box;
   }
   
@@ -70,7 +70,7 @@
     position: absolute;
     height:100vh;
     width: 100vw;
-    background-color:black;
+    background:#000e2e;
     display: flex;
 }
 
@@ -112,11 +112,11 @@
   }
 
   .navigation ul li:hover{
-    box-shadow: 0 0 1rem .3rem rgb(249, 13,84);
+    box-shadow: 0 0 1rem .3rem #f90000;
     border-bottom: .4rem solid transparent;
     border-top: .4rem solid transparent;
     transition: all 0.5s ease ;
-    background: rgb(249, 13,84);
+    background: #f90000;
   }
 
 
@@ -181,8 +181,8 @@
    font-size: 2rem;
    height: 4rem;
    width: 4rem; 
-   background:#302d2d;
-   line-height: 4.7rem;
+   background:#1d2201;
+   line-height: 4.9rem;
    border-radius: 50rem;
    margin: 0 1.5rem;
    cursor: pointer;
@@ -205,12 +205,12 @@
  #fb:hover{
      color: blue;
  }
-/*#ld:hover{
+#ld:hover{
     color: #4169E1;
 }
-#twitter:hover{
+/* #twitter:hover{
     color: cornflowerblue;
-}*/
+} */
 
 .skills{
     position: absolute;
@@ -223,7 +223,7 @@
 
 .skills h1{
     position: absolute;
-    color:#7FFF00;
+    color:#f90000;
     font-family: 'Benne', serif;
     margin: 0;
     padding: 0;
@@ -231,7 +231,7 @@
     left: 0;
     letter-spacing: 0.03rem;
     font-size: 7rem;
-    text-shadow: .6rem .6rem rgb(249, 13,84);
+    text-shadow: .6rem .6rem rgb(247, 247, 62);;
     width: 125rem;
     transform: translateY(-50%);
 }
@@ -315,7 +315,7 @@ h1 span:nth-child(10)
     margin-top: 30rem;
     background: #091647;
     flex-wrap: wrap;
-    box-shadow: 1rem 1rem 1rem 0rem palevioletred;
+    box-shadow: .5rem 0.5rem 1rem 0rem rgb(247, 247, 62);
     margin-left: 22rem;
 }
 
@@ -326,7 +326,7 @@ h1 span:nth-child(10)
     left: 0;
     width: 100rem;
     height: 100rem;
-    background: #00adff;
+    background: #dfa710;
     z-index: 1;
     mix-blend-mode: color;
     animation: ani 10s linear infinite;
@@ -378,37 +378,6 @@ p{
                 
 }
 
-/* .inner-chart{
-    position:absolute;
-    width: 50rem;
-    top: 18rem;
-    left: 90rem;
-    margin: 0 auto;
-    padding: 2rem;
-    border-radius: 1.0rem;
-    box-shadow: -.3rem -.3rem .7rem rgb(66, 66, 66),.3rem .3rem;
-    background-color: rgb(44, 44, 44);
-} */
-
-/* .inner-chart-container{
-    height: 1.5rem;
-    width: 47rem;
-    border-radius: 1.2rem;
-    padding: 1.5rem;
-    background-color: rgb(161, 160, 159);
-    box-shadow: -.3rem -.3rem .4rem rgb(207, 207, 206);
-}
-
-.inner-bar{
-    height: 10rem;
-    width: 10rem;
-    margin: 0 auto;
-    background-color: white;
-    box-shadow:inset -.3rem -.3rem .4rem rgb(207, 207, 206);
-    float: right;
-    border-radius: 1.2rem;
-} */
-
 .inner-chart-container{
     position: absolute;
     width: 50rem;
@@ -423,7 +392,7 @@ p{
     margin: 2rem 0;
     letter-spacing: .1rem;
     padding: 0 0 0 1rem;
-    color: greenyellow;
+    color:#f90000;
 }
 
 .line{              
@@ -444,12 +413,12 @@ p{
     height: 1rem;
     top: 0;
     z-index: 1;
-    background: #302d2d; 
+    background: #7c7474; 
 }
 
 .line:after{
     content: '';
-    background: rgb(249, 13,84);
+    background:rgb(230, 230, 122);
     height: 1rem;
     transition: 0.8s;
     display: block;
@@ -497,5 +466,5 @@ p{
     margin-top: 19rem;
     margin-left:4.6rem; 
     background-color: rgba(255,255,255,.1); 
-    box-shadow: 0 0 1rem .3rem #7FFF00; 
+    box-shadow: 0 0 1rem .3rem rgb(247, 247, 62); 
 }   

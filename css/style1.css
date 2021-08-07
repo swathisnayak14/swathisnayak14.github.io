@@ -9,7 +9,7 @@
     -ms-user-select: none;
     user-select: none;
     overflow: hidden;
-    font-family: 'Righteous', cursive;
+    font-family: 'Vollkorn', serif;
     box-sizing: border-box;
   }
   
@@ -127,7 +127,7 @@
     position: absolute;
     height:100vh;
     width: 100vw;
-    background-color:black;
+    background:#000e2e;
     display: flex;
 }
 
@@ -169,11 +169,11 @@
   }
 
   .navigation ul li:hover{
-    box-shadow: 0 0 1rem .3rem rgb(249, 13,84);
+    box-shadow: 0 0 1rem .3rem #f90000;
     border-bottom: .4rem solid transparent;
     border-top: .4rem solid transparent;
     transition: all 0.5s ease ;
-    background: rgb(249, 13,84);
+    background:#f90000;
   }
 
 
@@ -210,12 +210,6 @@
 
 }
 
-.cur li a i {
-    font-size: 18px;
-    color: yellow;
-}
-
-
 .connect{
     position:fixed;
     display: grid;
@@ -238,8 +232,8 @@
    font-size: 2rem;
    height: 4rem;
    width: 4rem; 
-   background:#302d2d;
-   line-height: 4.7rem;
+   background:#1d2201;
+   line-height: 4.9rem;
    border-radius: 50rem;
    margin: 0 1.5rem;
    cursor: pointer;
@@ -260,12 +254,12 @@
  #fb:hover{
      color: blue;
  }
-/*#ld:hover{
+#ld:hover{
     color: #4169E1;
 }
-#twitter:hover{
+/* #twitter:hover{
     color: cornflowerblue;
-}*/
+} */
 
 
 .heading{
@@ -277,7 +271,7 @@
 
 .heading h1{
     position: absolute;
-    color:#7FFF00;
+    color:#f90000;
     font-family: 'Benne', serif;
     margin: 0;
     padding: 0;
@@ -285,7 +279,7 @@
     left: 0;
     letter-spacing: 0.03rem;
     font-size: 7rem;
-    text-shadow: .6rem .6rem rgb(249, 13,84);
+    text-shadow: .6rem .6rem rgb(247, 247, 62);
     width: 125rem;
     transform: translateY(-50%);
 }
@@ -364,7 +358,7 @@ h1 span:nth-child(9)
     margin-top: 20rem;
     background: #091647;
     flex-wrap: wrap;
-    box-shadow: 1rem 1rem 1rem 0rem palevioletred;
+    box-shadow: 1rem 1rem 1rem 0rem rgb(247, 247, 62);
 
 }
 

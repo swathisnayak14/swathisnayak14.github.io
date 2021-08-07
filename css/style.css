@@ -9,7 +9,7 @@
     -ms-user-select: none;
     user-select: none;
     overflow: hidden;
-    font-family: 'Righteous', cursive;
+    font-family: 'Vollkorn', serif;
     box-sizing: border-box;
   }
   
@@ -107,7 +107,7 @@
   body{
       min-height: 100vh;
       max-width: 100vw;
-      background:black;
+      background:#000e2e;
   }
 
   .navigation{
@@ -200,7 +200,7 @@ section{
 
 section h1{
     position: absolute;
-    color:#7FFF00;
+    color:#f90000;
     font-family: 'Benne', serif;
     text-align: center;
     margin: 0;
@@ -209,7 +209,7 @@ section h1{
     margin-left: -8.3rem;
     letter-spacing: 0.03rem;
     font-size: 7rem;
-    text-shadow: .6rem .6rem rgb(249, 13,84);
+    text-shadow: .6rem .6rem rgb(247, 247, 62);
     width: 125rem;
     transform: translateY(-50%);
 }
@@ -336,16 +336,16 @@ h1 span:nth-child(19)
 
 .textwrapper h1{
     position: absolute;
-    color:#7FFF00;
+    color:#f90000;
     font-family: 'Benne', serif;
     text-align: center;
     margin: 0;
     padding: 0;
     top: 15rem;
-    margin-left: -19rem;
+    margin-left: -18rem;
     letter-spacing: 0.11rem;
     font-size: 6rem;
-    text-shadow: .5rem .5rem rgb(249, 13,84);
+    text-shadow: .5rem .5rem rgb(247, 247, 62);
     width: 100rem;
     transform: translateY(-50%);
 
@@ -353,7 +353,7 @@ h1 span:nth-child(19)
 
 .textwrapper h3{
     position: absolute;
-    color:rgb(249, 13,84);
+    color:#f90000;
     font-family: 'Abril Fatface', cursive;
     text-align: center;
     margin: 0;
@@ -362,7 +362,7 @@ h1 span:nth-child(19)
     margin-left: 3.8rem;
     letter-spacing: .5rem;
     font-size: 2rem;
-    text-shadow: .2rem .2rem #7FFF00 ;
+    text-shadow: .2rem .2rem rgb(247, 247, 62) ;
     width: 100rem;
     transform: translateY(-50%);
     
@@ -381,10 +381,10 @@ h1 span:nth-child(19)
     cursor:pointer;
     border-radius: 1rem;
     display: inline-block;
-    color:#7FFF00;
+    color:rgb(247, 247, 62);
     font-size: 2rem;
     /* transition: ease-out 0.3s; */
-    border: .3rem solid rgb(249, 13,84);
+    border: .3rem solid #f90000;
     outline: none;
     position: absolute;
     z-index: 1;
@@ -405,7 +405,7 @@ h1 span:nth-child(19)
     bottom: 0;
     opacity: 0;
     content: "";
-    background-color: rgb(249, 13,84);
+    background-color: #f90000;
 }
 
 .button .btn:hover:before{
@@ -550,8 +550,8 @@ h3 span:nth-child(21)
    font-size: 2rem;
    height: 4rem;
    width: 4rem;
-   background:#302d2d;
-   line-height: 4.7rem;
+   background:#1d2201;
+   line-height: 4.9rem;
    border-radius: 50rem;
    margin: 0 1.5rem;
    cursor: pointer;
@@ -573,19 +573,27 @@ h3 span:nth-child(21)
  #fb:hover{
      color: blue;
  }
-/*#ld:hover{
+
+#ld:hover{
     color: #4169E1;
 }
-#twitter:hover{
+/* #twitter:hover{
     color: cornflowerblue;
-}*/
+} */
 
 .logoclass{
     position:absolute;
     width:65rem;
     height:60rem;
-    margin-left:70rem;
-    margin-top:-8rem;
+    margin-left:89rem;
+    margin-top:-1rem;
     object-fit: contain;
 }
+
+.logoclass img{
+    height: 60rem;
+    width: auto;
+}
+
+
 
