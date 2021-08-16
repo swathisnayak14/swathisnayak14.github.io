@@ -156,7 +156,7 @@
     font-family: "Montserrat", sans-serif;
     padding: 0 5%;
     height: 100px;
-    background: rgb(2, 52, 95);
+    background: rgb(27, 27, 27);
   }
   nav .logo {
     float: left;
@@ -228,7 +228,7 @@
       height: auto;
       flex-direction: column;
       justify-content: space-evenly;
-      background-color: rgba(2, 52, 95, 0.8);
+      background-color: rgba(10, 10, 10, 0.8);
       overflow: hidden;
       box-sizing: border-box;
       transition: all 0.5s ease-in-out;
@@ -264,12 +264,69 @@
     height: 100vh;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
-      url("/Vibrant_Illustrations/images/bg.jpg");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
+    url("/images/bg1.jpg");
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
   }
+
+  section .wave{
+    position: absolute;
+    width: 100%;
+    height: 13.7rem;
+    bottom: 0;
+    left: 0;
+    background: url("/images/wave.png");
+    animation: animate 5s linear infinite;
+    opacity: .6;
+  }
+
+  @keyframes animate{
+    0%{
+      background-position: 0;
+    }
+
+    100%{
+      background-position: 136rem;
+    }
+  }
   
+  section .wave:before{
+    content: '';
+    width: 100%;
+    height: 13.7rem;
+    background: url("/images/wave.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .3;
+    animation: animate-reverse 5s linear infinite;
+  }
+
+  @keyframes animate-reverse{
+    0%{
+      background-position: 136rem;
+    }
+
+    100%{
+      background-position: 0;
+    }
+  }
+
+  section .wave:after{
+    content: '';
+    width: 100%;
+    height: 13.7rem;
+    background: url("/images/wave.png");
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: .1;
+    animation-delay: -5%;
+    animation: animate 10s linear infinite;
+  }
+
   .banner .content {
     max-width: 90rem;
     text-align: center;
@@ -400,7 +457,7 @@
     right: 0;
     width: 1rem;
     height: 100%;
-    background: rgb(2, 52, 95);
+    background: rgb(32, 32, 32);
     z-index: 10000;
     animation: animate 5s linear infinite;
   }
@@ -412,7 +469,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(2, 52, 95);
+    background: rgb(32, 32, 32);
     filter: blur(0.6rem);
   }
   
@@ -423,7 +480,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgb(2, 52, 95);
+    background: rgb(32, 32, 32);
     filter: blur(0.6rem);
   }
   
@@ -508,6 +565,7 @@
   
   .about{
     padding-left: 2rem;
+    margin-top: 3rem;
   }
   .row {
     position: relative;
