@@ -547,6 +547,9 @@
     position: relative;
     margin-top: 3rem;
     padding-left: 6rem;
+    background: #111;
+    height: auto;
+    width: auto;
   }
   .row {
     position: relative;
@@ -563,7 +566,7 @@
   }
   
   .heading {
-    color: #111;
+    color: wheat;
     font-size: 4.5rem;
     font-weight: 700;
     /* color: wheat; */
@@ -576,7 +579,7 @@
   }
   
   .me {
-    color: #111;
+    color: wheat;
     letter-spacing: 0.1rem;
     font-size: 5rem;
     font-weight: 900;
@@ -604,7 +607,7 @@
   
   .col50 p {
     font-size: 1.7rem;
-    color: #111;
+    color: wheat;
     font-weight: 600;
     width: 80rem;
   }
