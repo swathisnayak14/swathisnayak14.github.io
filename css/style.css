@@ -24,9 +24,9 @@
     footer {
       height: 35rem;
     }
-    /* .gallery {
+    .gallery {
       padding: 18rem;
-    } */
+    }
   }
   
   @media (max-width: 1600px) {
@@ -36,9 +36,9 @@
     footer {
       height: 35rem;
     }
-    /* .gallery {
+    .gallery {
       padding: 12rem 18rem 10rem 18rem;
-    } */
+    }
     .container .sec {
       flex-basis: 50%;
       padding:0rem 2rem;
@@ -52,12 +52,9 @@
     footer {
       height: 35rem;
     }
-    /* .gallery {
+    .gallery {
       padding: 8rem 6rem 6rem 12rem;
-    } */
-    /* .portfolio-items img {
-          padding: 1rem;
-      } */
+    }
     .container .sec {
       flex-basis: 50%;
       padding: 0rem 2rem;
@@ -71,12 +68,9 @@
     footer {
       height: 35rem;
     }
-    /* .gallery {
+    .gallery {
       padding: 8rem 1rem 8rem 1rem;
-    } */
-    /* .portfolio-items .item {
-          padding: 3rem;
-      } */
+    }
     .container .sec {
       flex-basis: 50%;
       padding: 0rem 2rem;
@@ -90,13 +84,9 @@
     footer {
       height: 50rem;
     }
-    /* .gallery {
+    .gallery {
       padding: 8rem 4rem 9rem 6rem;
-    } */
-    /* .portfolio-items .item img{
-          width: 99%;
-          height:auto;
-      } */
+    }
     .container .sec {
       flex-basis: 50%;
       padding: 1rem 2rem;
@@ -113,10 +103,6 @@
     .gallery {
       padding: 8rem 4rem 3rem 3rem;
     }
-    .portfolio-items img {
-      width: 97%;
-      height: auto;
-    }
     .container .sec {
       flex-basis: 50%;
       padding: 1rem 2rem;
@@ -132,10 +118,6 @@
     }
     .gallery {
       padding: 8rem 5rem 9rem 3rem;
-    }
-    .portfolio-items img {
-      width: 100%;
-      height: auto;
     }
     .container .sec {
       flex-basis: 50%;
@@ -488,10 +470,6 @@
     filter: blur(0.6rem);
   }
   
-  .videos{
-    padding:10rem;
-  }
-  
   .title {
     width: 100%;
     display: flex;
@@ -500,6 +478,7 @@
     flex-direction: column;
     font-size: 2.5rem;
     color: #111;
+    text-shadow: .2rem .2rem rgb(255, 60, 0);
     letter-spacing: 0.6rem;
     font-weight: 400;
   }
@@ -509,12 +488,9 @@
   }
   
   .titleText span {
-    color: #ff0157;
     font-size: 6rem;
     font-weight: 900;
   }
-
-  
   .portfolio-menu {
     text-align: center;
     margin-bottom: 2rem;
@@ -566,10 +542,11 @@
     letter-spacing: 0.1rem;
     color: rgb(167, 165, 165);
   }
-  
+
   .about{
-    padding-left: 2rem;
+    position: relative;
     margin-top: 3rem;
+    padding-left: 6rem;
   }
   .row {
     position: relative;
@@ -577,7 +554,7 @@
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-    justify-content: center;
+    /* justify-content: center; */
   }
   
   .row .col50 {
@@ -589,33 +566,40 @@
     color: #111;
     font-size: 4.5rem;
     font-weight: 700;
+    /* color: wheat; */
+    text-shadow: .2rem .2rem rgb(255, 60, 0);
   }
   
   .heading span {
-    color: #ff0157;
     font-size: 7rem;
     font-weight: 900;
   }
   
   .me {
-    color: #ff0157;
+    color: #111;
     letter-spacing: 0.1rem;
     font-size: 5rem;
     font-weight: 900;
+    text-shadow: .2rem .2rem rgb(255, 60, 0);
   }
   
   .row .col50 .imgbox {
     position: relative;
     width: fit-content;
     height: fit-content;
-    margin-top: 10rem;
-    padding:10rem;
+    /* margin-top: 10rem; */
+    padding: 10rem;
+    /* align-items: center;
+    justify-content: center; */
   }
+  
   
   .row .col50 .imgbox img {
     position: relative;
     width: auto;
     height: 40rem;
+    clip-path: circle();
+    
   }
   
   .col50 p {
@@ -638,6 +622,7 @@
     bottom: 0rem;
     width: 100%;
     background: #111;
+    height: 30rem;
   }
   
   footer {
@@ -657,7 +642,7 @@
     text-transform: uppercase;
     color: #999;
     margin-left: 10rem;
-    margin-top: 6rem;
+    margin-top: 2rem;
   }
   .sec .details {
     margin: 2rem 0 0 0;
@@ -674,7 +659,7 @@
     color: #999;
     display: flex;
     flex-wrap: wrap;
-    font-size: 1.7rem;
+    font-size: 2rem;
     font-weight: 600;
   }
   
@@ -747,6 +732,7 @@
     color: #ff0157;
     font-size: 2.4rem;
     font-weight: 900;
+    text-shadow: .1rem .1rem wheat;
   }
   
   .myport {
@@ -760,9 +746,6 @@
     color: #ff0157;
   }
   
-  .info .details .fp{
-    font-size: 1.2rem;
-  }
   
   hr.style-one {
     overflow: visible; /* For IE */
