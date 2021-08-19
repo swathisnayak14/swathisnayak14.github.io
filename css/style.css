@@ -344,51 +344,6 @@
     /* animation: texting 3s 1; */
   }
   
-  /* @keyframes text {
-        0%{
-            color: black;
-            margin-bottom: -4rem;
-        }
-        30%{
-            letter-spacing: 1.2rem;
-            margin-bottom: -4rem;
-        }
-        85%{
-            letter-spacing: .8rem;
-            margin-bottom: -4rem;
-        }
-    }
-    
-    @keyframes texts {
-        0%{
-            color: black;
-            margin-bottom: -4rem;
-        }
-        30%{
-            letter-spacing: 0.5rem;
-            margin-bottom: -4rem;
-        }
-        85%{
-            letter-spacing: .4rem;
-            margin-bottom: -4rem;
-        }
-    }
-    
-    @keyframes texting {
-        0%{
-            color: black;
-            margin-bottom: -4rem;
-        }
-        30%{
-            letter-spacing: 0.4rem;
-            margin-bottom: -4rem;
-        }
-        85%{
-            letter-spacing: .3rem;
-            margin-bottom: -4rem;
-        }
-    } */
-  
   .btn {
     font-size: 2rem;
     text-decoration: none;
@@ -472,6 +427,7 @@
 
   .gallery{
     background:#111;
+    overflow: hidden;
   }
   
   .title {
@@ -589,12 +545,17 @@
     flex-wrap: wrap;
 }   
 
-.content{
-  color: wheat;
-  padding: 2rem;
-  font-size: 2rem;
-  margin: 3rem;
-  
+.content p{
+  font-size: 1.7rem;
+    color: wheat;
+    font-weight: 600;
+    padding-left: 6rem;
+    padding-right:6rem;
+    width: 90rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    place-items:center;
 }
 
   .portfolio-items .item img {
@@ -635,7 +596,7 @@
     position: relative;
     width: 100%;
   }
-  
+
   .heading {
     color: wheat;
     font-size: 4.5rem;
