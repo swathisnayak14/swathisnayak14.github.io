@@ -483,7 +483,7 @@
     font-size: 2.5rem;
     color: wheat;
     text-shadow: .2rem .2rem rgb(255, 60, 0);
-    letter-spacing: 0.6rem;
+    letter-spacing: 0.1rem;
     font-weight: 400;
   }
   
@@ -492,8 +492,8 @@
   }
   
   .titleText span {
-    font-size: 6rem;
-    font-weight: 900;
+    font-size: 7rem;
+    font-weight: 600;
   }
   
   .inner-chart-container{
@@ -614,15 +614,17 @@
 
   .about{
     position: relative;
-    margin-top: 3rem;
-    padding-left: 6rem;
+    /* margin-top: 3rem; */
+    padding-top: 5rem;
+    /* padding-left: 6rem; */
     background: #111;
     height: auto;
     width: auto;
   }
+
   .row {
     position: relative;
-    width: 100%;
+    width: auto;
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
@@ -631,7 +633,7 @@
   
   .row .col50 {
     position: relative;
-    width: auto;
+    width: 100%;
   }
   
   .heading {
@@ -640,20 +642,35 @@
     font-weight: 700;
     /* color: wheat; */
     text-shadow: .2rem .2rem rgb(255, 60, 0);
-  }
+    letter-spacing: .1rem;
+    display:flex;
+    justify-content: center;
+    place-items:center;
+    }
   
   .heading span {
     font-size: 7rem;
-    font-weight: 900;
+    font-weight: 600;
   }
   
-  .me {
+  .heading .letter{
+    font-size: 8rem;
+    font-weight: 600;
+  }
+
+  .col50 {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items:center;
+  }
+  /* .me {
     color: wheat;
     letter-spacing: 0.1rem;
     font-size: 5rem;
     font-weight: 900;
     text-shadow: .2rem .2rem rgb(255, 60, 0);
-  }
+  } */
   
   .row .col50 .imgbox {
     position: relative;
@@ -671,14 +688,19 @@
     width: auto;
     height: 40rem;
     clip-path: circle();
-    
   }
   
   .col50 p {
     font-size: 1.7rem;
     color: wheat;
     font-weight: 600;
-    width: 80rem;
+    padding-left: 6rem;
+    padding-right:6rem;
+    width: 90rem;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    place-items:center;
   }
   
   .cards {
