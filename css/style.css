@@ -672,6 +672,38 @@
     color: rgb(2, 52, 95);
   }
   
+  .works{
+    position: relative;
+    /* margin-top: 3rem; */
+    padding-bottom: 5rem;
+    /* padding-left: 6rem; */
+    background: red;
+    height: auto;
+    width: auto;
+  }
+
+  .title1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.5rem;
+    color: wheat;
+    text-shadow: .2rem .2rem #e90462;
+    letter-spacing: 0.1rem;
+    font-weight: 400;
+  }
+  
+  .titleText1 {
+    padding: 0.5rem;
+  }
+  
+  .titleText1 span {
+    font-size: 7rem;
+    font-weight: 600;
+  }
+  
   footer {
     position: relative;
     bottom: 0rem;
