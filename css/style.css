@@ -248,7 +248,7 @@
     align-items: center;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.8)),
     url("/images/bg1.jpg");
-    background-size: cover;
+    background-size: cover; 
     background-attachment: fixed;
     display: flex;
   }
@@ -921,21 +921,54 @@
     position: relative;
     bottom: 0rem;
     width: 100%;
-    background: #171717;
+    background: red;
     height: 30rem;
-  }
-  
-  footer {
     overflow-y: hidden;
   }
-  footer .container {
+  
+  footer .contact {
+    position: absolute;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+   .icons1 {
+    background: #1d1d1d;
+    font-size: 2rem;
+    border-radius: 1rem;
+    color: #999;
+    transition: 0.3s;
+    padding: 1rem;
+    padding-bottom: .5rem;
     align-items: center;
   }
   
+  .icons2 {
+    background: #1d1d1d;
+    line-height: 6rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    color: #999;
+    transition: 0.3s;
+    /* padding-bottom: 0.1rem; */
+    padding: 1rem;
+  }
   
-  
+  .quicklinks{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    right: 5rem;
+  }
+
+    .quicklinks h2{
+      font-size: 2.5rem;
+      color: wheat;
+      height: 5rem;
+      }
+
   .sec h2 {
     font-size: 2rem;
     font-weight: 600;
@@ -948,10 +981,12 @@
     margin: 2rem 0 0 0;
   }
   
-  .phno,
-  .mail,
-  .myport {
-    margin-left: 10rem;
+  .details{
+        color: #999;
+        font-size: 2rem;
+        text-decoration: none;
+        /* padding: 1rem; */
+        background: #000000;
   }
   
   .info .details p {
@@ -991,34 +1026,36 @@
     color: #fff;
   }
   
-  .details .icons1 {
-    background: #1d1d1d;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 1.8rem;
-    border-radius: 1rem;
-    color: #999;
-    transition: 0.3s;
-    padding: 1.2rem;
-  }
   
-  .details .icons2 {
-    background: #1d1d1d;
-    line-height: 5rem;
-    text-align: center;
-    font-size: 1.8rem;
-    border-radius: 0.5rem;
+  .phones
+ {
+    padding-bottom: 1rem;
     color: #999;
-    transition: 0.3s;
-    padding: 1rem;
-  }
-  
-  .phone,
-  .email {
-    color: #999;
-    padding: 1rem;
     font-size: 2rem;
     text-decoration: none;
+  }
+
+  .phone
+ {
+    color: #999;
+    font-size: 2rem;
+    padding: 2rem 0;
+    text-decoration: none;
+  }
+
+  .email{
+    color: #999;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
+  .contact h2{
+    font-size: 2.5rem;
+    color: wheat;
+  }
+
+  h2 .edit{
+    font-size: 3.5rem;
   }
   
   .phone:hover {
@@ -1035,12 +1072,7 @@
     text-shadow: .1rem .1rem wheat;
   }
   
-  .myport {
-    color: #999;
-    font-size: 2rem;
-    text-decoration: none;
-    padding: 1rem;
-  }
+  
   
   .myport:hover {
     color: #ff0157;
