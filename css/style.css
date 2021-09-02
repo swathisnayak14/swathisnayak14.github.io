@@ -162,7 +162,7 @@
     list-style: none;
   }
   nav .links a {
-    color: whitesmoke;
+    color: wheat;
     text-decoration: none;
     font-size: 1.7rem;
     font-weight: 600;
@@ -186,11 +186,13 @@
   nav .icon-burger .line {
     width: 30px;
     height: 5px;
-    background-color: #fff;
+    background-color: wheat;
     margin: 5px;
     border-radius: 3px;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
   }
+
   @media screen and (max-width: 768px) {
     nav .logo {
       width: auto;
@@ -361,7 +363,7 @@
   
   .btn:hover {
     letter-spacing: 0.6rem;
-    color: #fff;
+    color: wheat;
   }
   
   @keyframes anime {
@@ -921,7 +923,7 @@
     position: relative;
     bottom: 0rem;
     width: 100%;
-    background: red;
+    background:#171717;
     height: 30rem;
     overflow-y: hidden;
   }
@@ -933,122 +935,57 @@
     padding: 2rem;
   }
 
+  .edit {
+    color: #ff0157;
+    font-size: 2.4rem;
+    font-weight: 900;
+    text-shadow: .1rem .1rem wheat;
+  }
+  
    .icons1 {
     background: #1d1d1d;
     font-size: 2rem;
     border-radius: 1rem;
-    color: #999;
+    color: wheat;
     transition: 0.3s;
     padding: 1rem;
     padding-bottom: .5rem;
     align-items: center;
   }
   
+  .phones
+  {
+     padding-bottom: 1rem;
+     color: wheat;
+     font-size: 2rem;
+     text-decoration: none;
+   }
+ 
+   .phone
+  {
+     color: wheat;
+     font-size: 2rem;
+     padding: 2rem 0;
+     text-decoration: none;
+   }
+ 
+   .email{
+    color: wheat;
+    font-size: 2rem;
+    text-decoration: none;
+  }
+
   .icons2 {
     background: #1d1d1d;
     line-height: 6rem;
     font-size: 1.8rem;
     border-radius: 1rem;
-    color: #999;
+    color: wheat;
     transition: 0.3s;
     /* padding-bottom: 0.1rem; */
     padding: 1rem;
   }
   
-  .quicklinks{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    padding: 2rem;
-    right: 5rem;
-  }
-
-    .quicklinks h2{
-      font-size: 2.5rem;
-      color: wheat;
-      height: 5rem;
-      }
-
-  .sec h2 {
-    font-size: 2rem;
-    font-weight: 600;
-    text-transform: uppercase;
-    color: #999;
-    margin-left: 10rem;
-    margin-top: 2rem;
-  }
-  .sec .details {
-    margin: 2rem 0 0 0;
-  }
-  
-  .details{
-        color: #999;
-        font-size: 2rem;
-        text-decoration: none;
-        /* padding: 1rem; */
-        background: #000000;
-  }
-  
-  .info .details p {
-    text-align: justify;
-    color: #999;
-    display: flex;
-    flex-wrap: wrap;
-    font-size: 2rem;
-    font-weight: 600;
-  }
-  
-  .info .details .social {
-    margin: 2rem 0 0 0;
-  }
-  
-  .info .details .social a {
-    padding: 0 0.2rem;
-  }
-  
-  .info .details .social a .icon .fa {
-    height: 4rem;
-    width: 4rem;
-    background: #1a1a1a;
-    line-height: 4rem;
-    text-align: center;
-    font-size: 1.8rem;
-    border-radius: 0.5rem;
-    color: #999;
-    transition: 0.3s;
-  }
-  
-  .info .details .social a .icon .fa:hover {
-    background: #ff0157;
-  }
-  
-  .info .details .social a .icon .fa:hover {
-    color: #fff;
-  }
-  
-  
-  .phones
- {
-    padding-bottom: 1rem;
-    color: #999;
-    font-size: 2rem;
-    text-decoration: none;
-  }
-
-  .phone
- {
-    color: #999;
-    font-size: 2rem;
-    padding: 2rem 0;
-    text-decoration: none;
-  }
-
-  .email{
-    color: #999;
-    font-size: 2rem;
-    text-decoration: none;
-  }
-
   .contact h2{
     font-size: 2.5rem;
     color: wheat;
@@ -1058,46 +995,89 @@
     font-size: 3.5rem;
   }
   
-  .phone:hover {
+  .phones:hover {
     color: #ff0157;
   }
   .email:hover {
-    color: #ff0157;
+    color: #e90462;
   }
-  
-  .edit {
-    color: #ff0157;
-    font-size: 2.4rem;
-    font-weight: 900;
-    text-shadow: .1rem .1rem wheat;
-  }
-  
-  
-  
+
   .myport:hover {
-    color: #ff0157;
+    color: #e90462;
   }
   
+.myport{
+  text-decoration: none;
+  color: wheat;
+}
+
+.icons1:hover,.icons2:hover {
+  background: #e90462;
+  cursor: pointer;
+}
+
+  .quicklinks{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    right: 2rem;
+  }
+
+    .quicklinks h2{
+      font-size: 2.5rem;
+      color: wheat;
+      height: 5rem;
+      }
+
+  .details{
+        color: #999;
+        font-size: 2rem;
+        text-decoration: none;
+        padding-top: 2rem;
+      }
   
-  hr.style-one {
-    overflow: visible; /* For IE */
-    padding: 0;
-    border: none;
-    border-top: medium double #333;
-    color: #333;
-    text-align: center;
+
+  .social{
+    position: absolute;
+    bottom:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    flex-direction: column;
+    /* padding: 3rem; */
+    height: 10rem;
   }
   
-  hr.style-one:after {
-    content: "§";
-    display: inline-block;
-    position: relative;
-    top: -0.7rem;
+  .social p{
     font-size: 2rem;
-    padding: 0 0.25rem;
-    background: white;
+    padding-bottom: 1rem;
   }
-  
+
+  .media{
+    font-size: 2rem;
+    width: 40rem;
+    padding-top: 1rem;
+    place-items: center;
+  }
+
+  .media a{
+    margin-left: 1rem;
+    border-radius: 1rem;
+    background: #1d1d1d;
+    color: wheat;
+    transition: 0.3s;
+    padding: 1rem;
+    /* justify-content: center;
+    place-items: center; */
+  }
+
+.media a:hover{
+  background: #e90462;
+  cursor: pointer;
+}
+
   .copyright {
     width: 100%;
     background: rgb(32, 32, 32);
@@ -1106,12 +1086,12 @@
   }
   
   .copyright p {
-    color: #ff0157;
+    color: #e90462;
     font-size: 1.5rem;
   }
   
   .copyright .footer-name{
-    color: #fff;
+    color: wheat;
   }
   
   
