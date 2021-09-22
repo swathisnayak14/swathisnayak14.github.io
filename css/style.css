@@ -211,7 +211,6 @@ nav .icon-burger .line {
         width: auto;
         height: auto;
         text-align: center;
-        /* margin-top: 2.5rem; */
     }
 
     nav .links {
@@ -335,6 +334,7 @@ section .wave:after {
     max-width: 90rem;
     text-align: center;
     display: block;
+    overflow: hidden;
 }
 
 .banner .content span {
@@ -352,19 +352,15 @@ section .wave:after {
 
 .banner .content .text2 {
     font-size: 3rem;
-    /* margin: 1.5rem; */
     color: wheat;
     letter-spacing: 0.4rem;
     text-shadow: .2rem .2rem #e90462;
-    /* animation: texts 3s 1; */
 }
 
 .banner .content .text3 {
     font-size: 2.5rem;
-    /* margin: 2rem; */
     letter-spacing: 0.3rem;
     color: wheat;
-    /* animation: texting 3s 1; */
 }
 
 .btn {
@@ -455,7 +451,6 @@ section .wave:after {
     background: #171717;
     height: 95rem;
     overflow: hidden;
-    /* width: 100vw; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -490,7 +485,6 @@ section .wave:after {
     position: absolute;
     width: 50rem;
     height: 50rem;
-    /* background-color:#e90462; */
     margin: 0 auto;
     bottom: 6.5rem;
 }
@@ -508,7 +502,6 @@ section .wave:after {
     min-width: 100%;
     margin: 0 auto 1rem;
     font-size: 1.4rem;
-    /* color:greenyellow; */
     padding: 0 0 0 1rem;
     position: relative;
 }
@@ -581,7 +574,6 @@ section .wave:after {
     width: 55rem;
     height: 50rem;
     margin-top: 10rem;
-    /* margin-left:4.6rem;  */
     background-color: rgba(255, 255, 255, 0.03);
     box-shadow: .5rem .5rem #e90462;
 }
@@ -609,9 +601,7 @@ section .wave:after {
 
 .about {
     position: relative;
-    /* margin-top: 3rem; */
     padding-top: 9rem;
-    /* padding-left: 6rem; */
     background: #171717;
     height: auto;
     width: auto;
@@ -623,7 +613,6 @@ section .wave:after {
     display: flex;
     flex-wrap: wrap;
     overflow: hidden;
-    /* justify-content: center; */
 }
 
 .row .col50 {
@@ -635,7 +624,6 @@ section .wave:after {
     color: wheat;
     font-size: 4.5rem;
     font-weight: 700;
-    /* color: wheat; */
     text-shadow: .2rem .2rem #e90462;
     letter-spacing: .1rem;
     display: flex;
@@ -666,10 +654,7 @@ section .wave:after {
     position: relative;
     width: fit-content;
     height: fit-content;
-    /* margin-top: 10rem; */
     padding: 10rem;
-    /* align-items: center;
-    justify-content: center; */
 }
 
 
@@ -705,7 +690,6 @@ section .wave:after {
     position: relative;
     padding-top: 9.5rem;
     padding-bottom: 5rem;
-    /* padding-left: 6rem; */
     background: #171717;
     height: 60rem;
     width: auto;
@@ -738,9 +722,7 @@ section .wave:after {
 .box {
     position: absolute;
     top: 23rem;
-    /* left: 23.5rem; */
     height: 30rem;
-    /* width: 70rem; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -762,13 +744,6 @@ section .wave:after {
     overflow: hidden;
 }
 
-/* .box:hover .card{
-    opacity: .2;
-} */
-
-/* .box .card:hover{
-    opacity: 1;
-} */
 .box .card::before {
     content: '';
     position: absolute;
@@ -815,11 +790,6 @@ section .wave:after {
     transition: .5s;
 }
 
-/* .box .card:hover .card_det h3{
-    opacity: 1;
-
-} */
-
 .box .card .card_det p {
     position: absolute;
     top: 7rem;
@@ -832,13 +802,6 @@ section .wave:after {
     font-weight: 500;
 }
 
-
-/* .box .card:hover .card_det p ,
-.box .card:hover .card_det h3{
-    opacity: 1;
-} */
-
-
 .box .card .card_det a {
     position: relative;
     display: inline-block;
@@ -850,11 +813,6 @@ section .wave:after {
     letter-spacing: .1rem;
     border-radius: 1rem;
 }
-
-/* .box .card .card_det a:hover{
-  color:wheat;
-    opacity: 1;
-} */
 
 .box .card span:nth-child(1) {
     position: absolute;
@@ -875,15 +833,6 @@ section .wave:after {
         transform: translateX(100%);
     }
 }
-
-/* .box .card span{
-    transition: .5s;
-    opacity: 0;
-}
-
-.box .card:hover span{
-    opacity: 1;
-} */
 
 .box .card span:nth-child(2) {
     position: absolute;
@@ -1008,7 +957,6 @@ footer .contact {
     border-radius: 1rem;
     color: wheat;
     transition: 0.3s;
-    /* padding-bottom: 0.1rem; */
     padding: 1rem;
 }
 
