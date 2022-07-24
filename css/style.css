@@ -552,11 +552,15 @@ section .wave:after {
 }
 
 .line6:after {
-    max-width: 70%;
+    max-width: 85%;
 }
 
 .line7:after {
     max-width: 68%;
+}
+
+.line8:after {
+    max-width: 85%;
 }
 
 @keyframes anime {
@@ -572,7 +576,7 @@ section .wave:after {
 .background-chart-container {
     position: relative;
     width: 55rem;
-    height: 50rem;
+    height: 60rem;
     margin-top: 10rem;
     background-color: rgba(255, 255, 255, 0.03);
     box-shadow: .5rem .5rem #e90462;
