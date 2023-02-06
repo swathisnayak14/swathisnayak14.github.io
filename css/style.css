@@ -449,7 +449,7 @@ section .wave:after {
 .gallery {
     position: relative;
     background: #171717;
-    height: 95rem;
+    height: 90rem;
     overflow: hidden;
     display: flex;
     flex-direction: column;
@@ -484,7 +484,7 @@ section .wave:after {
 .inner-chart-container {
     position: absolute;
     width: 50rem;
-    height: 50rem;
+    height: 59rem;
     margin: 0 auto;
     bottom: 6.5rem;
 }
@@ -536,7 +536,7 @@ section .wave:after {
 }
 
 .line2:after {
-    max-width: 60%;
+    max-width: 75%;
 }
 
 .line3:after {
@@ -544,7 +544,7 @@ section .wave:after {
 }
 
 .line4:after {
-    max-width: 60%;
+    max-width: 40%;
 }
 
 .line5:after {
@@ -552,7 +552,7 @@ section .wave:after {
 }
 
 .line6:after {
-    max-width: 85%;
+    max-width: 80%;
 }
 
 .line7:after {
@@ -561,6 +561,10 @@ section .wave:after {
 
 .line8:after {
     max-width: 85%;
+}
+
+.line9:after {
+    max-width: 50%;
 }
 
 @keyframes anime {
@@ -577,7 +581,6 @@ section .wave:after {
     position: relative;
     width: 55rem;
     height: 60rem;
-    margin-top: 10rem;
     background-color: rgba(255, 255, 255, 0.03);
     box-shadow: .5rem .5rem #e90462;
 }
@@ -665,7 +668,7 @@ section .wave:after {
 .row .col50 .imgbox img {
     position: relative;
     width: auto;
-    height: 40rem;
+    height: 50rem;
     clip-path: circle();
 }
 
@@ -678,7 +681,7 @@ section .wave:after {
     width: 90rem;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content:center;
     place-items: center;
 }
 
